@@ -1,0 +1,8 @@
+<div class="card mt-4 h-100" style="width: 15em; max-width: 100%; ">
+  <img src="{{product.thumbnail}}" class="card-img-top p-5" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">{{product.title }}</h5>
+    <p class="card-text">{{product.price  | currency:'COP'}}</p>
+    <a class="btn btn-dark" (click)="seeDetail()">Ver detalle</a>
+  </div>
+</div>
